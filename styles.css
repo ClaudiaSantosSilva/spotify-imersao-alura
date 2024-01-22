@@ -1,3 +1,94 @@
 body{
     background-color: #000;
 }
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar-navigation{
+    background-color:#121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    cursor:pointer;
+}
+.logo{ 
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    display: flex;
+    
+}
+
+.logo img{
+    width: 100px;
+}
+
+.sidebar-navigation ul{
+    list-style: none;
+    margin-top: 20px;
+    padding: 0px 20px 10px 20px;
+}
+
+.sidebar-navigation ul li{
+    padding: 10px 0px;
+}
+
+.sidebar-navigation ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar-navigation ul li a:hover{
+    color: #51e876;
+}
+
+.sidebar-navigation nav ul li a i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.library{
+    padding: 20px;
+    background-color: #121212;
+    margin-top: 10px;
+}
+
+.library-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.library-content i{
+    color:#b3b3b3;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.library-content a {
+    text-decoration: none;
+}
+
+.library-content span:hover {
+    color: #51e876;
+}
+
+.library-content i:hover {
+    color: #51e876;
+}
+
+.library-content a span{
+    color: #b3b3b3;
+    font-size: 18px;
+    font-family: "DM-Sans", sans-serif;
+}
+    
+
