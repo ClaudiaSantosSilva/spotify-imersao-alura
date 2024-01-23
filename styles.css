@@ -2,6 +2,7 @@ body{
     background-color: #0f2f47;;
 }
 
+/*Inicio navbar*/
 .sidebar{
     position: fixed;
     top: 0;
@@ -17,13 +18,13 @@ body{
     padding: 16px 0 0 16px;
     cursor:pointer;
 }
+
 .logo{ 
     /* background-color: #638889; */
     color: #638889;
     border-radius: 8px;
     padding: 16px 0 0 16px;
-    display: flex;
-    
+    display: flex;    
 }
 
 .logo img{
@@ -62,7 +63,9 @@ body{
     background-color: #184a70;
     margin-top: 10px;
     border-radius: 8px;
-
+    display: flex;
+    flex-direction: column;
+    color:#fff;
 }
 
 .library-content{
@@ -72,13 +75,15 @@ body{
 }
 
 .library-content i{
-    color:#fff;
+    color: #fff;
     font-size: 20px;
-    margin-right: 10px;
+    margin: 10px;
 }
 
 .library-content a {
     text-decoration: none;
+    font-weight: 700;
+    font-family: "DM-Sans", sans-serif;
 }
 
 .library-content span:hover {
@@ -97,46 +102,41 @@ body{
 
 .create-playlist{
     background-color: #3198e6;;
-    margin: 10px 0;
+    margin: 0 0 10px 0;
     padding: 16px 20px;
     border-radius: 8px;
     display: flex;
-    flex-direction: column;  
-    
-    
-    
+    align-items: flex-start;
+    justify-content: space-between;    
+  
 }
 
 .create-playlist-content{
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    font-family: "DM Sans", sans-serif;   
-    align-items: flex-start;
-    justify-content: space-between;    
-
+    font-family: "DM Sans", sans-serif;    
 }
 
-.create-playlist-content .text-title{
+.create-playlist-content .text-title{ /*ver o que comum e o q especifico.Tirar - no html*/
     font-weight: 700;
-    color: #fff;
-    padding-bottom: 14px;
+    padding-bottom: 14px;      
 }
 
 .create-playlist-content .text-subtitle{
     font-weight: 500;
     font-size: 16px;
-    color: #fff;
-    padding-bottom: 14px;
+    padding-bottom: 14px;      
 }
 
 .create-playlist-button{
     border-radius: 9999px;
     padding: 10px;
-    border: none;
+    border: 0;
     font-weight: 700;
     width: 113px;
     margin-top: 12px;
+    text-transform: none;
 }
 
 .library .cookies{
@@ -146,8 +146,13 @@ body{
 }
 
 .library .cookies a{
-    color: #fff;
+   color: #fff;
     text-decoration: none;
+    font-weight: 500;
+}
+
+.library .cookies a:hover{
+    font-size: 14px;
 }
 
 .languages{
@@ -160,11 +165,54 @@ body{
     padding: 8px;
     width: 170px;
     border: none;
-    border-radius: 9999px;
+    border-radius: 20px;
     cursor: pointer;
     font-weight: bold;
 }
+/*fim navbar*/
 
+/*Inicio do footer*/
+.disclaimer{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 40px;
+    align-items: center;
+    background-image: linear-gradient(to right, #ea10ea, #3198e6 );
+}
+    
+
+.disclaimer .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-shrink: 0;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", Sans-serif;
+
+}
+
+.disclaimer .text .disclaimer-title{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.disclaimer-button{
+    padding: 14px 30px;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 40px;
+    cursor: pointer;    
+}
 
     
 
