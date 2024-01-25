@@ -3,8 +3,7 @@
     max-width: 80vw;
     height: 100vh;
     margin-left: 320px;
-    margin-right: 56px;
-   
+    margin-right: 56px;   
 }
 
 .header-navigation{
@@ -53,8 +52,7 @@
     height: 48px;
     background-color: #3198e6;
     border-radius: 50px;
-    border: 1px solid transparent;
-    
+    border: 1px solid transparent;    
 }
 
 .navigation-search img{
@@ -83,8 +81,7 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-left: 8px;
-    
+    margin-left: 8px;    
 }
 
 .header-login .subscribe, .login{
@@ -97,3 +94,161 @@
     font-weight: 600;
 }
 
+/* Inicio Playlist*/
+.playlist-container{
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #184a70;
+}
+
+.playlist-greetings{
+    margin: 24px;
+}
+
+.playlist-greetings #greetings{
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.playlist-greetings .playlist-greetings-title{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* container dos cards*/
+.options__scroll-container{
+    max-height: 43vh;
+    margin: 24px;
+    overflow-y: auto;    
+}
+
+.options-list-items{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.cards{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    text-decoration: none;    
+}
+
+.options-list-items img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 107px;
+    transform: rotate(20deg) translate(14%, -2%);
+}
+
+.cards span{
+    padding: 16px;
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 8px;    
+}
+
+.cards-card1{
+    background-color: rgb(0, 100, 80);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card2{
+    background-color: rgb(132, 0, 231);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card3{
+    background-color: rgb(30, 50, 100);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card4{
+    background-color: rgb(140, 25, 50);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card5{
+    background-color: rgb(232, 17, 91);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card6{
+    background-color: rgb(83, 122, 161);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card7{
+    background-color: rgb(142, 102, 172);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card8{
+    background-color: rgb(20, 138, 8);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card9{
+    background-color: rgb(30, 50, 100);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card10{
+    background-color: rgb(233, 20, 41);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card11{
+    background-color: rgb(80, 55, 80);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card12{
+    background-color: rgb(216, 64, 0);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card13{
+    background-color: rgb(186, 93, 7);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card14{
+    background-color: rgb(0, 30, 80);
+    width: 200px;
+    height: 200px;
+}
+
+.cards-card15{
+    background-color: rgb(60, 30, 80);
+    width: 200px;
+    height: 200px;
+}
