@@ -1,0 +1,23 @@
+/*Inicio do Header*/
+.main-container{
+    max-width: 80vw;
+    height: 100vh;
+    margin-left: 320px;
+    margin-right: 56px;
+}
+
+.header-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #184a70;
+}
+
+.header-navigation .navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

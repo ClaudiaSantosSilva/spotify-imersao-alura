@@ -1,5 +1,6 @@
 body{
-    background-color: #0f2f47;;
+    background-color: #0f2f47;
+    font-family: var(--font-dm-sans);
 }
 
 /*Inicio navbar*/
@@ -46,7 +47,6 @@ body{
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
-    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar-navigation ul li a:hover{
@@ -83,7 +83,6 @@ body{
 .library-content a {
     text-decoration: none;
     font-weight: 700;
-    font-family: "DM-Sans", sans-serif;
 }
 
 .library-content span:hover {
@@ -91,13 +90,12 @@ body{
 }
 
 .library-content i:hover { 
-     font-size: 22px; 
+    font-size: 22px; 
 } 
 
 .library-content a span{
     color: #fff;
     font-size: 18px;
-    font-family: "DM-Sans", sans-serif;
 }
 
 .create-playlist{
@@ -115,7 +113,6 @@ body{
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    font-family: "DM Sans", sans-serif;    
 }
 
 .create-playlist-content .text-title{ /*ver o que comum e o q especifico.Tirar - no html*/
@@ -194,8 +191,6 @@ body{
     color: #fff;
     margin: 0;
     padding: 0;
-    font-family: "DM Sans", Sans-serif;
-
 }
 
 .disclaimer .text .disclaimer-title{

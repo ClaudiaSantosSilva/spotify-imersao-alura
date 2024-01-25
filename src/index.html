@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Imersão</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/vars.css" />
+    <link rel="stylesheet" href="styles/sidebar-footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+      integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+    <!-- <script src="https://kit.fontawesome.com/6b83116f53.js" crossorigin="anonymous"></script>  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="sidebar">
+      <nav class="sidebar-navigation">
+        <div class="logo">
+          <a href="#">
+            <img src="assets/icons/logo-spotify.png" alt="logo do spotify" />
+          </a>
+        </div>
+
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa fa-home"></i>
+              <span>Início</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fa fa-search"></i>
+              <span>Buscar</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="library">
+        <div class="library-content">
+          <a href="#">
+            <i class="fa fa-book"></i>
+            <span class="library-content-span">Sua biblioteca</span>
+          </a>
+
+          <i class="fa fa-plus"></i>
+        </div>
+
+        <section class="create-playlist">
+          <div class="create-playlist-content">
+            <span class="text-title">Crie sua própria playlist</span>
+            <span class="text-subtitle">É fácil, vamos te ajudar.</span>
+            <button class="create-playlist-button">Criar playlist</button>
+          </div>
+        </section>
+
+        <div class="cookies">
+          <a href="#">Cookies</a>
+        </div>
+
+        <div class="languages">
+          <button class="languages-button">
+            <span class="fa fa-globe"></span>
+            <span>Português do Brasil</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="main-container">
+        <nav class="header-navigation">
+          <div class="navigation">
+            <button class="navigation-arrow-left">
+              <img src="assets/icons/small-left.png" alt="seta para esquerda" />
+            </button>
+            <button class="navigation-arrow-left">
+              <img src="assets/icons/small-right.png" alt="seta para direita" />
+            </button>
+            <div class="navigation-search">
+              <img src="assets/icons/search.png" />
+              <input
+                type="text"
+                id="search-input"
+                maxlength="100"
+                placeholder="O que você quer ouvir?"
+              />
+            </div>
+          </div>
+
+          <div class="header-login">
+            <button class="subscribe">Inscreva-se</button>
+            <button class="login">Entrar</button>
+          </div>
+        </nav>
+      </div>
+    </main>
+
+    <footer class="disclaimer">
+      <div class="text">
+        <span class="disclaimer-title">testar o premium de graça</span>
+        <span class="disclaimer-text"
+          >Inscreva-se para curtir música ilimitada e podcasts só com alguns
+          anúncios. Não precisa de cartão de crédito.</span
+        >
+      </div>
+
+      <div class="button">
+        <button class="disclaimer-button">Inscreva-se grátis</button>
+      </div>
+    </footer>
+  </body>
+</html>
