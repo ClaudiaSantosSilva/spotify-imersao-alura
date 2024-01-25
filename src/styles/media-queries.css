@@ -1,5 +1,13 @@
-@media screen and (max-width:1015px) {
+@media screen and (max-width:1015px) { 
     .options-list-items {
         grid-template-columns: 1fr 1fr;
-    }  
+    } 
+    
+    .header-navigation{
+        margin: 10px 2px 10px 2px;
+    }
+
+    .navigation-arrow-left{
+        margin-right: 0.5rem;    
+    }
 }
