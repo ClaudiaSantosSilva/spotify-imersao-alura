@@ -1,6 +1,7 @@
 body{
     background-color: #0f2f47;
     font-family: var(--font-dm-sans);
+    height: auto;
 }
 
 /*Inicio navbar*/
@@ -200,7 +201,7 @@ body{
 }
 
 .disclaimer-button{
-    padding: 14px 30px;
+    padding: 10px 30px;
     color: #000;
     font-weight: bold;
     font-size: 18px;

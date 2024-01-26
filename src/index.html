@@ -121,8 +121,9 @@
 
         <!-- Inicio da Playlist -->
         <div class="playlist-container">
-            <div class="playlist">
+            <div id="playlist">
                 <div class="playlist-greetings">
+                    <!-- Colocar bom dia, tarde ou noite -->
                     <h1 id="greetings">Boa tarde</h1>
                     <h2 class="playlist-greetings-title">Navegar por todas as seções</h2>
                 </div>
@@ -233,6 +234,27 @@
         </div>
         <!--Fim da Playlist  -->
       </div>
+
+      <div id="result-artist" class="hidden">
+        <div class="grid-container">
+            <div class="artist-card" id="">
+                <div class="card-img">
+                    <img id="artist-img" class="artist-img" />
+                    <div class="pLay">
+                        <span class="fa fa-play"></span>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <a class="vst" title="Foo Fighters" href="">
+                        <span class="artist-name" id="artist-name"></span>
+                        <span class="artist-categorie">Rock</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
     </main>
 <!-- Fim do conteúdo principal -->
 
@@ -251,6 +273,8 @@
       </div>
     </footer>
 <!-- Fim do Footer -->
+
+<script type="text/javascript" src="script.js"></script>
 
   </body>
 </html>

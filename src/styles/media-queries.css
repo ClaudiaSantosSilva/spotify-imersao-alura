@@ -1,4 +1,18 @@
 @media screen and (max-width:1015px) { 
+    .disclaimer-button{
+        padding: 6px 20px;
+        color: #000;
+        font-weight: bold;
+        font-size: 14px;
+        background-color: #fff;
+        border-radius: 40px;
+        cursor: pointer;    
+    }
+
+    .playlist-container{
+        padding-top: 8px;
+    }
+
     .options-list-items {
         grid-template-columns: 1fr 1fr;
     } 
@@ -9,5 +23,9 @@
 
     .navigation-arrow-left{
         margin-right: 0.5rem;    
+    }
+
+    .navigation-search{
+        width: 340px;
     }
 }
