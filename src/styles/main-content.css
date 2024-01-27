@@ -306,8 +306,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    gap: 8px;
-    
+    gap: 8px;    
   }
   
   /* .artist-img {
@@ -320,8 +319,7 @@
   } */
 
   .artist-img{
-    border-radius: 50%;
-   
+    border-radius: 50%;   
   }
   
   .card-text {
@@ -331,8 +329,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    /* min-height: 62px; */
-    
+    /* min-height: 62px; */    
   }
   .vst{
     display: flex;
@@ -366,13 +363,12 @@
     font-size: 0.875rem;
   }
   
-  .play {
-    /* position: relative; 
+  /* .play {
+    position: relative; 
     display: flex;
     justify-content: center;
-    margin-left: 20px;*/
-    
-  }
+    margin-left: 20px;    
+  } */
   
   .play .fa-play {
     /* position: absolute; */

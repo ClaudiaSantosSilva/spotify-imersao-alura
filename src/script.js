@@ -14,10 +14,12 @@ function displayResults(result){
     resultPlaylist.classList.add("hidden");
     const artistName = document.getElementById("artist-name");
     const artistImage = document.getElementById("artist-img");
+    const artistGenre = document.getElementById("artist-categorie")
 
     result.forEach(element => { /*isso é uma iteração*/
         artistName.innerText = element.name;
-        artistImage.src = element.urlImg;    
+        artistImage.src = element.urlImg;
+        artistGenre.innerText= element.genre;    
     });
 
     resultsArtist.classList.remove("hidden");
