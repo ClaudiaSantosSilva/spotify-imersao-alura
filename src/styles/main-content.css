@@ -258,11 +258,11 @@
 }
 
 /* CARD ARTISTA */
-.artist { /*estava só artist*/
+/*.artist { estava só artist*/
     /* --column-count: 5;
     --grid-gap: 24px;
-    --min-container-width: 200px; era 372 */
-    }
+    --min-container-width: 200px; era 372 
+    }*/
   
   .hidden { /*essa classe será incluída no JS*/
     display: none;
@@ -284,7 +284,7 @@
   .artist-card {
     background: #181818;
     margin-top: 20px;
-   border-radius: 10px;
+    border-radius: 10px;
     /* -ms-flex: 1;
     flex: 1;
     isolation: isolate; */
@@ -307,6 +307,7 @@
     flex-direction: column;
     margin-bottom: 10px;
     gap: 8px;
+    
   }
   
   /* .artist-img {
@@ -320,15 +321,22 @@
 
   .artist-img{
     border-radius: 50%;
+   
   }
   
   .card-text {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    min-height: 62px;
+    /* min-height: 62px; */
+    
+  }
+  .vst{
+    display: flex;
+    flex-direction: column;
   }
   
   .card-text a {
@@ -359,10 +367,10 @@
   }
   
   .play {
-    /* position: relative; */
+    /* position: relative; 
     display: flex;
     justify-content: center;
-    margin-left: 20px;
+    margin-left: 20px;*/
     
   }
   
@@ -382,7 +390,7 @@
   
   .artist-card:hover .play .fa-play { 
     opacity: 1;
-    transform: translateY(-20px);
+    transform: translateX(20px);
   }
   
   .play .fa-play:hover {
