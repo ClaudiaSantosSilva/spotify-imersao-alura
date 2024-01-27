@@ -258,33 +258,39 @@
 }
 
 /* CARD ARTISTA */
-.artist {
-    --column-count: 5;
+.artist { /*estava só artist*/
+    /* --column-count: 5;
     --grid-gap: 24px;
-    --min-container-width: 372px;
-  }
+    --min-container-width: 200px; era 372 */
+    }
   
   .hidden { /*essa classe será incluída no JS*/
     display: none;
   }
   
   .grid-container {
-    grid-gap: var(--grid-gap);
+    /* grid-gap: var(--grid-gap);
     display: grid;
     grid-template-columns: repeat(var(--column-count), minmax(0, 1fr));
-    min-width: var(--min-container-width);
-  }
-  
+    min-width: var(--min-container-width);      */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    max-height: 90%;
+  } 
+
+   
   .artist-card {
     background: #181818;
-    border-radius: 8px;
-    -ms-flex: 1;
+    border-radius: 10px;
+    /* -ms-flex: 1;
     flex: 1;
-    isolation: isolate;
-    padding: 16px;
-    position: relative;
+    isolation: isolate; */
+    padding: 16px; 
+    /* position: relative;  */
     transition: background-color 0.3s ease;
-    width: 100%;
+    /* width: 70%; era 100 */
   }
   
   .artist-card:hover {
@@ -292,25 +298,32 @@
   }
   
   .card-img {
-    padding-bottom: 100%;
+    /* padding-bottom: 100%;
     position: relative;
     width: 100%;
-    margin-bottom: 16px;
+    margin-bottom: 16px; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 8px;
   }
   
-  .artist-img {
+  /* .artist-img {
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
+    border-radius: 50%; 
+  } */
+
+  .artist-img{
     border-radius: 50%;
   }
   
   .card-text {
     display: flex;
     flex-direction: column;
-    color: #fff;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -318,17 +331,24 @@
   }
   
   .card-text a {
-    display: inline-block;
-    max-width: 100%;
-    vertical-align: middle;
+    /* display: inline-block; */
+    /* max-width: 100%; */
+    /* vertical-align: middle;  */
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    white-space: nowrap;
   }
   
   .artist-name {
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     margin-block: 0px;
     font-size: 16px;
     font-weight: 700;
-    padding-block-end: 8px;
+    padding-block-end: 8px; */
+   
   }
   
   .artist-categorie {
@@ -338,11 +358,12 @@
   }
   
   .play {
-    position: relative;
+    /* position: relative; */
+    
   }
   
   .play .fa-play {
-    position: absolute;
+    /* position: absolute;
     right: 10px;
     top: 120px;
     padding: 18px;
@@ -350,7 +371,9 @@
     border-radius: 100%;
     font-size: 14px;
     opacity: 0;
-    transition: all ease 0.4s;
+    transition: all ease 0.4s; */
+    background-color: #1db954;
+    
   }
   
   .artist-card:hover .play .fa-play {
@@ -365,5 +388,9 @@
   
   #result-artist {
     padding: 20px 40px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   /* FIM CARD ARTISTA */
