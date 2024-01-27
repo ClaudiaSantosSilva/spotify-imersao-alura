@@ -278,6 +278,7 @@
     align-items: center;
     max-width: 80%;
     max-height: 90%;
+    margin: auto;
   } 
 
    
@@ -397,8 +398,8 @@
   #result-artist {
     padding: 20px 40px;
     height: 80%;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
   }
   /* FIM CARD ARTISTA */

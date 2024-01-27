@@ -34,7 +34,7 @@ document.addEventListener ("input", function(){
         resultsArtist.classList.add("hidden");/*retirar artistas*/
         return; /*return pára a execução do código*/ 
        }
-       resultPlaylist.classList.add("hidden"); 
-       resultsArtist.classList.remove("hidden");  
+        resultPlaylist.classList.add("hidden"); 
+        resultsArtist.classList.remove("hidden");  
        requestAPI(searchTerm);
 })
